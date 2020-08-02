@@ -19,6 +19,6 @@ public class ResearcherImportListener extends AnalysisEventListener<ResearcherIm
 
     @Override
     public void doAfterAllAnalysed(AnalysisContext context){
-        log.info("立项参研人员数据解析完成");
+        log.info("人员数据解析完成");
     }
 }
