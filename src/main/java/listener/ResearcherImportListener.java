@@ -10,11 +10,11 @@ import java.util.List;
 
 @Slf4j
 public class ResearcherImportListener extends AnalysisEventListener<ResearcherImportData> {
-    public List<ResearcherImportData> applyProjectResearcherList = new ArrayList<>();
+    public List<ResearcherImportData> researcherList = new ArrayList<>();
 
     @Override
     public void invoke(ResearcherImportData data, AnalysisContext context){
-        applyProjectResearcherList.add(data);
+        researcherList.add(data);
     }
 
     @Override
