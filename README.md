@@ -2,7 +2,7 @@
 
 [简体中文](README.md) | [English](README_EN.md)
 
-基于ali easyexcel，bean validation的高效、便捷得Excel数据导入工具
+基于ali easyexcel，bean validation的高效、便捷的Excel数据导入工具
 
 ## 特点
 
